@@ -1,0 +1,5 @@
+Pillow>=10.0.0
+numpy>=1.24.0
+PyYAML>=6.0.0
+# noise>=1.2.2  # Optional - has C dependency, fallback noise is built-in
+# pygame>=2.0.0  # Optional - for real-time preview window (--preview flag)

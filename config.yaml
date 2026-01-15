@@ -1,0 +1,52 @@
+# Sprite Animator Configuration
+
+# Default animation settings
+animation:
+  frame_count: 8
+  frame_duration: 100  # milliseconds
+
+# Effect parameters
+effects:
+  flame:
+    speed: 1.0
+    intensity: 0.8
+    ember_count: 5
+    colors:
+      hot: [255, 200, 50]
+      warm: [255, 100, 30]
+      cool: [200, 50, 20]
+
+  water:
+    wave_speed: 0.5
+    wave_amplitude: 2
+    ripple_intensity: 0.6
+
+  float:
+    bob_height: 3
+    bob_speed: 0.5
+    rotation: 0  # degrees
+
+  sparkle:
+    density: 0.1
+    fade_speed: 0.3
+    colors:
+      - [255, 255, 255]
+      - [255, 255, 200]
+      - [200, 200, 255]
+
+  sway:
+    amplitude: 2
+    speed: 0.3
+    anchor: bottom  # bottom, center, top
+
+  pulse:
+    scale_min: 0.95
+    scale_max: 1.05
+    speed: 0.5
+
+# Auto-detection thresholds
+detection:
+  confidence_threshold: 0.5
+  color_weight: 0.4
+  shape_weight: 0.3
+  edge_weight: 0.3
